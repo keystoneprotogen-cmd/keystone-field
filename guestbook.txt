@@ -1,0 +1,23 @@
+# Keystone Field — guest book archive.
+#
+# One entry per line. Lines starting with # are ignored, so this header does
+# not show up on the page. Blank lines are skipped too.
+#
+# The world DOWNLOADS this file and shows the most recent lines on the book's
+# left page. Nothing in VRChat can write to it: Udon has no outbound HTTP and
+# VRCUrl cannot be built at runtime, so entries get here when you put them
+# here. That is the whole catch, and it is a platform limit rather than a
+# missing feature.
+#
+# WHERE THIS HAS TO LIVE: string loading only works from GitHub Pages
+# (*.github.io), Gist (gist.githubusercontent.com), Pastebin, VRCDN and
+# Disbridge. Anywhere else loads only for people who have turned on "Allow
+# Untrusted URLs", which is most people's answer to a prompt they do not
+# understand, and is overridden entirely in public instances. Put it in a
+# GitHub Pages repo and paste the raw URL into the GuestBook component's
+# Archive Url field in Unity.
+#
+# Keep it to one line each and under about 80 characters — longer lines are
+# cut to fit the page.
+
+Keystone  ·  first light at KKEY. The coffee is on and the board is running.
